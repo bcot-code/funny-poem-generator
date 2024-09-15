@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Welcome to the humuous generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>Welcome to the Ai Funny Poem Generator</h1></header>
       <main>
-        <form>
+        <form id="funny-poem">
           <input
             type="text"
             placeholder="Enter the funny poem"
@@ -20,11 +21,7 @@
           />
           <input type="submit" class="submit-btn" />
         </form>
-        <section class="words">
-          The strangest, strange stranger I met in my life was the man who made
-          <br />
-          use of his nose as a knife.
-        </section>
+        <section class="words" id="funny-quote"></section>
       </main>
       <footer>
         This code was created by
@@ -38,5 +35,6 @@
         Hosted on Netlfly
       </footer>
     </div>
+    <script src="./src/index.js"></script>
   </body>
 </html>
