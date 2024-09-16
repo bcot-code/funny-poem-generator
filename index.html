@@ -12,18 +12,21 @@
     <div class="container">
       <header><h1>Welcome to the Ai Funny Poem Generator</h1></header>
       <main>
-        <form id="funny-poem">
-          <input
-            type="text"
-            placeholder="Enter the funny poem"
-            autofocus
-            required
-            class="instruction"
-            id="words"
-          />
-          <input type="submit" class="submit-btn" />
-        </form>
-        <section class="words" id="funny-quote"></section>
+        <div class="form-container">
+          <form id="funny-poem">
+            <input
+              type="text"
+              placeholder="Enter topic of a funny poem"
+              autofocus
+              required
+              class="instruction"
+              id="words"
+            />
+            <input type="submit" class="submit-btn" />
+          </form>
+          <div class="clue">I.e:generate paris or wife</div>
+        </div>
+        <section class="words hide" id="funny-quote"></section>
       </main>
       <footer>
         This code was created by

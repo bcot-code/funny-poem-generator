@@ -17,12 +17,21 @@ h1 {
 main {
   margin-bottom: 30px;
 }
-form {
-  padding: 30px;
+.form-container {
   background-color: aliceblue;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.8);
+  margin-bottom: 30px;
   border-radius: 10px;
+  padding: 20px;
+}
+form {
   display: flex;
+}
+.clue {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.6;
 }
 
 .instruction {
@@ -53,6 +62,9 @@ form {
   border-left: 3px solid plum;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.8);
   border-radius: 30px;
+}
+.hide {
+  display: none;
 }
 footer {
   margin-top: 50px;
