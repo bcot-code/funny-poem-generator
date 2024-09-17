@@ -12,7 +12,7 @@ header {
 h1 {
   color: blueviolet;
   font-weight: 800;
-  font-size: 100px;
+  font-size: 35px;
   line-height: 1.5;
 }
 main {
@@ -20,18 +20,18 @@ main {
 }
 .form-container {
   background-color: aliceblue;
-  box-shadow: 0px 20px 60px rgba(113, 73, 207, 0.8);
-  margin-bottom: 100px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.8);
+  margin-bottom: 30px;
   border-radius: 10px;
-  padding: 40px;
+  padding: 20px;
 }
 form {
   display: flex;
 }
 .clue {
   line-height: 1.5;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 10px;
+  font-size: 12px;
   opacity: 0.6;
 }
 
@@ -56,7 +56,7 @@ form {
 }
 .words {
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
   padding: 20px;
   background-color: whitesmoke;
   line-height: 24px;
