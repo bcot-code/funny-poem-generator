@@ -16,8 +16,8 @@ function generateFy(event) {
   // Build the API URL
   let apiKey = "db9df5cafd32a54ef0cf0c7bd2635oct";
   let context =
-    "A humorous AI who loves funny poem generate in four sentences in basic HTML. Make sure to be nice and follow the user instructions.";
-  let prompt = `User Instruction: your AI assistant,be nice and short to the point ${instruction.value}`;
+    "A humorous AI who loves funny poem and generate in four sentences in basic HTML. Make sure to be nice and follow the user instructions.";
+  let prompt = `User Instructions: your AI assistant,be nice and short to the point ${instruction.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   //   alert("Processing the funny quote...");
