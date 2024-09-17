@@ -3,8 +3,8 @@ body {
   background: radial-gradient(#333, #000);
 }
 .container {
-  margin: 130px auto;
-  max-width: 800px;
+  margin: 120px auto;
+  max-width: 600px;
 }
 header {
   margin-bottom: 30px;
