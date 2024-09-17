@@ -3,8 +3,8 @@ body {
   background: radial-gradient(#333, #000);
 }
 .container {
-  margin: 120px auto;
-  max-width: 600px;
+  margin: 130px auto;
+  max-width: 800px;
 }
 header {
   margin-bottom: 30px;
@@ -12,7 +12,7 @@ header {
 h1 {
   color: blueviolet;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 100px;
   line-height: 1.5;
 }
 main {
@@ -20,18 +20,18 @@ main {
 }
 .form-container {
   background-color: aliceblue;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.8);
-  margin-bottom: 30px;
+  box-shadow: 0px 20px 60px rgba(113, 73, 207, 0.8);
+  margin-bottom: 100px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
 }
 form {
   display: flex;
 }
 .clue {
   line-height: 1.5;
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 20px;
+  font-size: 20px;
   opacity: 0.6;
 }
 
@@ -56,7 +56,7 @@ form {
 }
 .words {
   margin-top: 30px;
-  font-size: 14px;
+  font-size: 30px;
   padding: 20px;
   background-color: whitesmoke;
   line-height: 24px;
@@ -75,7 +75,7 @@ footer {
 }
 
 .leaves {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -144,14 +144,10 @@ footer {
 }
 .set3 {
   transform: scale(1.2);
-  transform: translateX(10px) rotateY(180deg);
-  filter: blur(3px);
-}
-.set4 {
-  transform: scale(1.1);
-  transform: translateX(5px) rotateY(180deg);
+  transform: translateX(-500px) rotateY(180deg);
   filter: blur(2px);
 }
+
 .leaf1 {
   width: 240px;
   height: auto;
